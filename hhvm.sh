@@ -5,3 +5,7 @@ echo deb http://dl.hhvm.com/ubuntu xenial main | sudo tee /etc/apt/sources.list.
 apt-get update
 apt-get install nginx hhvm -y
 /usr/share/hhvm/install_fastcgi.sh
+
+wget https://raw.githubusercontent.com/erikfig/php-nginx/master/nginxhhvm
+mv nginx56 /etc/nginx/sites-available/default
+service nginx restart

@@ -13,3 +13,7 @@ while ($i <= 100000) {
     $i++;
 }
 ' > /var/www/html/index.php
+
+wget https://raw.githubusercontent.com/erikfig/php-nginx/master/nginx56
+mv nginx56 /etc/nginx/sites-available/default
+service nginx restart
