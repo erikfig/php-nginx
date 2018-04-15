@@ -17,3 +17,6 @@ while ($i <= 100000) {
 wget https://raw.githubusercontent.com/erikfig/php-nginx/master/nginx72
 mv nginx56 /etc/nginx/sites-available/default
 service nginx restart
+
+echo "=========================="
+echo "PHP 7.2 com Nginx instalado, trabalhe em /var/www/html"

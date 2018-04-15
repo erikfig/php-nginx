@@ -17,3 +17,6 @@ while ($i <= 100000) {
 wget https://raw.githubusercontent.com/erikfig/php-nginx/master/nginx56
 mv nginx56 /etc/nginx/sites-available/default
 service nginx restart
+
+echo "=========================="
+echo "PHP 5.6 com Nginx instalado, trabalhe em /var/www/html"

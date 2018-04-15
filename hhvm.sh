@@ -9,3 +9,6 @@ apt-get install nginx hhvm -y
 wget https://raw.githubusercontent.com/erikfig/php-nginx/master/nginxhhvm
 mv nginx56 /etc/nginx/sites-available/default
 service nginx restart
+
+echo "=========================="
+echo "HHVM com Nginx instalado, trabalhe em /var/www/html"
