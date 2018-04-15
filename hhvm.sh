@@ -7,7 +7,7 @@ apt-get install nginx hhvm -y
 /usr/share/hhvm/install_fastcgi.sh
 
 wget https://raw.githubusercontent.com/erikfig/php-nginx/master/nginxhhvm
-mv nginx56 /etc/nginx/sites-available/default
+mv nginxhhvm /etc/nginx/sites-available/default
 service nginx restart
 
 echo "=========================="

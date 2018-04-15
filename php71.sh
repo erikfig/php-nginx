@@ -15,7 +15,7 @@ while ($i <= 100000) {
 ' > /var/www/html/index.php
 
 wget https://raw.githubusercontent.com/erikfig/php-nginx/master/nginx71
-mv nginx56 /etc/nginx/sites-available/default
+mv nginx71 /etc/nginx/sites-available/default
 service nginx restart
 
 echo "=========================="
